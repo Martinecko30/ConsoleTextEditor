@@ -67,3 +67,15 @@ vcpkg_installed/
 # test output & cache
 Testing/
 .cache/
+
+# Ignorovať skryté zložky Visual Studia
+.vs/
+*.user
+*.suo
+
+# Ignorovať zložky, kde sa kompiluje kód
+Debug/
+Release/
+x64/
+x86/
+*.exe
